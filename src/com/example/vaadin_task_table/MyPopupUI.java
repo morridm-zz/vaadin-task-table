@@ -1,0 +1,16 @@
+package com.example.vaadin_task_table;
+
+import com.vaadin.server.VaadinRequest;
+import com.vaadin.ui.Label;
+import com.vaadin.ui.UI;
+
+public class MyPopupUI extends UI {
+
+	@Override
+	protected void init(VaadinRequest request) {
+		setContent(new Label("This is MyPopupUI where parameter foo="
+				+ request.getParameter("foo") + " and fragment is set to "
+				+ getPage().getUriFragment()));
+	}
+
+}
