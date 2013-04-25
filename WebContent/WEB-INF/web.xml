@@ -12,13 +12,13 @@
 		<servlet-class>com.vaadin.server.VaadinServlet</servlet-class>
 		<init-param>
 		    <param-name>widgetset</param-name>
-		    <param-value>com.example.vaadin_task_table.FilterTableWidgetset</param-value>
+		    <param-value>pl.wroc.pwr.javaxml.taskmanager.FilterTableWidgetset</param-value>
 		</init-param>		
 		<init-param>
 			<description>
 			Vaadin UI class to use</description>
 			<param-name>UI</param-name>
-			<param-value>com.example.vaadin_task_table.TaskTableUI</param-value>
+			<param-value>pl.wroc.pwr.javaxml.taskmanager.TaskTableUI</param-value>
 		</init-param>
 	</servlet>
 	<servlet-mapping>
